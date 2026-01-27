@@ -1,0 +1,15 @@
+[project]
+name = "ai-learning-tower"
+version = "0.1.0"
+description = "Building a deep understanding of AI technologies from the ground up"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.14",
+]
