@@ -5,8 +5,14 @@ description = "Building a deep understanding of AI technologies from the ground 
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=4.5.0",
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.4",
     "pydantic>=2.12.5",
     "pytest>=9.0.2",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+    "transformers>=5.2.0",
 ]
 
 [dependency-groups]
